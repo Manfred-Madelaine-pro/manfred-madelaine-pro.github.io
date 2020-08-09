@@ -15,14 +15,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #545e69;
+}
+h1, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #327ac7;
 }
 
 a {
-  color: #3AAA64;
+  color: #327ac7;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -138,7 +143,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #545e69;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
@@ -225,7 +230,7 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: #327ac7;
 }
 
 .latest .item .title a:hover {
@@ -451,7 +456,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #327ac7;
 }
 
 .skills .svg-inline--fa {
@@ -546,7 +551,7 @@ a.dotted-link:hover {
 }
 
 .languages .item .svg-inline--fa {
-  color: #79d19a;
+  color: #327ac7;
 }
 
 /* Blog Section */
